@@ -40,7 +40,7 @@ canvas {
 }
 
 .info {
-  display: inline-block;
+  display: block;
   float: right;
   margin: 15px 20px 0;
 }

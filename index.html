@@ -1,30 +1,20 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="pt-br">
+
 <head>
-  <meta charset="UTF-8">
-  <title>CodePen - audioMotion-analyzer with custom callback function</title>
-  <link rel="stylesheet" href="./styles/main.css">
-
+    <meta charset="UTF-8">
+    <title>Toca Top</title>
+    <link rel="stylesheet" href="./styles/main.css">
 </head>
+
 <body>
-<!-- partial:index.partial.html -->
-<!-- analyzer container + logo image -->
-<div id="container">
-  <img id="logo" src="./images/logo.png">
-</div>
-
-<!-- audio element -->
-<audio id="audio" src="http://sv14.hdradios.net:7402/;" controls crossorigin></audio>
-
-<label>Upload audio file
-  <input id="upload" type="file" accept="audio/*">
-</label>
-
-<button id="live">Play live stream</button>
-
-<div class="info"><a href="https://audiomotion.dev">audioMotion-analyzer</a> <span id="version"></span></div>
-<!-- partial -->
-  <script type="module" src="./scripts/main.js"></script>
-
+    <div id="container">
+        <img id="logo" src="./images/logo.png">
+    </div>
+    <audio id="audio" src="http://sv14.hdradios.net:7402/;" controls crossorigin></audio>
+    <button id="live">Play</button>
+    <div class="info"><a href="https://audiomotion.dev">audioMotion-analyzer</a> <span id="version"></span></div>
+    <script type="module" src="./scripts/main.js"></script>
 </body>
+
 </html>

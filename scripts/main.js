@@ -37,13 +37,3 @@ document.getElementById('live').addEventListener( 'click', () => {
   audioEl.src = 'http://sv14.hdradios.net:7402/;';
   audioEl.play();
 });
-
-// file upload
-document.getElementById('upload').addEventListener( 'change', e => {
-	const fileBlob = e.target.files[0];
-
-	if ( fileBlob ) {
-		audioEl.src = URL.createObjectURL( fileBlob );
-		audioEl.play();
-	}
-});
