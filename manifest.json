@@ -1,0 +1,42 @@
+{
+    "name": "TocaTop",
+    "short_name": "TocaTop",
+    "id": "TocaTop/?source=pwa",
+    "start_url": "./?source=pwa",
+    "display": "standalone",
+    "background_color": "#222222",
+    "theme_color": "#2B3467",
+    "orientation": "portrait-primary",
+    "description": "Toca Top",
+    "dir": "rtl",
+    "lang": "pt-BR",
+    "scope": "./",
+    "icons": [
+        {
+            "src": "images/32x32.png",
+            "type": "image/png",
+            "sizes": "32x32"
+        },
+        {
+            "src": "images/64x64.png",
+            "type": "image/png",
+            "sizes": "64x64"
+        },
+        {
+            "src": "images/128x128.png",
+            "type": "image/png",
+            "sizes": "128x128"
+        },
+        {
+            "src": "images/256x256.png",
+            "type": "image/png",
+            "sizes": "256x256"
+        },
+        {
+            "src": "images/512x512.png",
+            "type": "image/png",
+            "sizes": "512x512",
+            "purpose": "any maskable"
+        }
+    ]
+}
