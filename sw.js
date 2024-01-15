@@ -1,6 +1,6 @@
 'use strict';
 
-const VERSION = '2024.01.15.18.18.00';
+const VERSION = '2024.01.15.18.53.00';
 const RESOURCES = [
     './',
     './index.html',
